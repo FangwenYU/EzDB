@@ -1,0 +1,17 @@
+[snapshot_function]
+;Specify whether ezdb is used for snapshot db package (true/false)
+enable_snapshot=true
+
+[db_compiler]
+;Specify the pre-supplied mandatory db scripts that used to generate the db package
+common_db_dir=C:\Users\yufa\Desktop\Document\Py-Workspace\EasyDB\DB_SCRIPTS
+
+;Specify where the source DB xml files are put.
+;For example, table xml files should be put under the folder TABLE
+source_db_dir=C:\Users\yufa\Desktop\Document\Py-Workspace\Staging\Source
+
+;Specify where the target DB package will be generated
+target_db_dir=C:\Users\yufa\Desktop\Document\Py-Workspace\Staging\Output
+
+;Specify the release number
+release_number=4.0.0.0
